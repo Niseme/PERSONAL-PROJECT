@@ -1,0 +1,67 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+/* the main background */
+.back-background{
+    background-color: #715d47;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.c-height{
+    height: calc(100vh - 200px);
+}
+/* gamer's background */
+.game-background{
+    background-color: #d8d1c2;
+    padding: 20px;
+    color: #35422e;
+}
+
+
+/* gamer's column */
+.game-col{
+    border: 1px solid #5b6656;
+    border-radius:10%;
+    width: 45%;
+}
+
+/*  gamer's column content*/
+
+h1{
+    text-transform: uppercase;
+    color: #5b6656;
+}
+
+.score{
+    font-size: 90px;
+    font-weight: 100;
+    color: #35422e;
+    padding-top: 85px;
+    padding-bottom: 150px;
+}
+.current-score{
+    border: 1px solid #5b6656;
+    border-radius: 10%;
+    background-color: rgb(216, 209, 194,0.2);
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+/* active gamer */
+.active-player{
+    font-weight: 800;
+    background-color: #e6dfd5;
+} 
+
+.current-score.active-player{
+    font-weight: 700;
+    background-color: #d8d1c2;
+}
